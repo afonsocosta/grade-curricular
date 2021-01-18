@@ -1,0 +1,10 @@
+language: java
+jdk:
+- openjdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: SKe4MkbtioFbaFECYSmaOLNF4uBT7A3bPoaQU5xYO+QWMiKGbBdY4BmNUOdX8uebUOLI2CewVA0ZZhcj1qUrla0MjqwsjfuwHl26lw1WnurTmbi3PhqChp6mzbgR5v9PvZZCzkwMCOB34tqDH847FlxXAoN5ab/p1eHfEwy7g2Dh05amZfuQBGA/r+kZU06yarvnYSuqRO5/ekWz7nsfXzmDNe4jVEGe66VaGPVAIZTRPkF7QtR5xzXesAFpHBUKdA+1brCaeD69ugaZbVMTx0LGMjQkpLEftgBopnPE6SYLcw60SdM3GEK43wU9uCgVpcQ2RTrK/VJ7E+vtRMNyIr+QKkUBt2hHO19jerJiuX5N3rQk3aw642p4+nA/cdjbuA9oMf9InJHYEf+iLpY8hT1AEfuqH2h97/ef+SsaAh3AkMtkp9/b5N6Vke32WyrXaP1nwckiGoOzQLb84Za8OpcC7JaxkraWN5ScqEuDr7YBR5Ezk0YZzeS2rIQ2L7BqYHF2qtmx8GwfMoDkdOPuQCFPDLX3OzHC4ocZZcDfVGl1oMl1yqmhSVMyth34k+SJ6k5F4LPBodp2lPgZ1nLaWlouthFg7DIa7Far88h9VJbnavTJUhGFcOa5Kb9AYCU2LwAYHy+AS9owYAG19Q7X7gO/mwP3C7roXU4qurFYWgU=
+  app: dev-grade-curricular
+  on:
+    branch: master
